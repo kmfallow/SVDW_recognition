@@ -1,19 +1,22 @@
 ---
 title: "SVDW Recognition Pilot: Preregistration"
 author: "Kaitlyn Fallow (kmfallow@uvic.ca)"
-date: "January 5, 2019"
+date: "`r format(Sys.Date())`"
+bibliography: library.bib
+csl: apa.csl
+
 output: 
-          html_document:
+          pdf_document:
                     toc: TRUE
-                    toc_float: TRUE
-                    keep_md: TRUE
+                    #toc_float: TRUE
+                    #keep_md: TRUE
 ---
 
 
 ##Background
-Snodgrass and Vanderwart (1980)'s well-known stimulus set has been used in a number of recognition memory studies, perhaps most often in those exploring picture superiority effects. Although these studies have  varied in their choice of dependent measure, with authors variously using hit rates, Br, the signal detection measure d', and so on to represent memory performance, response bias has been paid almost no direct attention.
+@Snodgrass1980's well-known stimulus set has been used in a number of recognition memory studies, perhaps most often in those exploring picture superiority effects. Although these studies have  varied in their choice of dependent measure, with authors variously using hit rates, Br, the signal detection measure d', and so on to represent memory performance, response bias has been paid almost no direct attention.
 
-Because much work in our lab has focused on materials-based differences in recognition memory response bias, and even more specifically on differences between stimulus sets comprising words and complex, visually rich images, the Snodgrass and Vanderwart (SVDW) set has long been of interest to us, being perhaps the most commonly used set of words and images in memory research. We are not aware of any consistent materials-based response bias differences having emerged from studies using these stimuli, although given the relative infrequency with which bias measures have historically been reported in this literature and the fact that other variables are often of primary interest and/or manipulated it is difficult to get a clear picture. Feenan & Snodgrass (1990), for example, reported a more conservative bias for SVDW words than for pictures, and C was numerically conservative across the board for single stimuli, but their primary interest was contextual change, which they accomplished by presenting some stimuli in pairs that were either maintained or rearranged at test. Healthy participants in Snodgrass & Corwin (1988)'s Exp. 2 showed a slightly conservative bias to SVDW pictures in the first study/test cycle that diminished to near-neutral in a second cycle. Karlsen & Snodgrass (2004) also reported roughly neutral c values for SVDW pictures, but in this case were interested in the role of familiarity and therefore restricted their image set to those at the extreme ends based on the familiarity-rating norms.
+Because much work in our lab has focused on materials-based differences in recognition memory response bias, and even more specifically on differences between stimulus sets comprising words and complex, visually rich images, the Snodgrass and Vanderwart (SVDW) set has long been of interest to us, being perhaps the most commonly used set of words and images in memory research. We are not aware of any consistent materials-based response bias differences having emerged from studies using these stimuli, although given the relative infrequency with which bias measures have historically been reported in this literature and the fact that other variables are often of primary interest and/or manipulated it is difficult to get a clear picture. @Feenan1990, for example, reported a more conservative bias for SVDW words than for pictures, and C was numerically conservative across the board for single stimuli, but their primary interest was contextual change, which they accomplished by presenting some stimuli in pairs that were either maintained or rearranged at test. Healthy participants in @Snodgrass1988's Exp. 2 showed a slightly conservative bias to SVDW pictures in the first study/test cycle that diminished to near-neutral in a second cycle. @Karlsen2004 also reported roughly neutral c values for SVDW pictures, but in this case were interested in the role of familiarity and therefore restricted their image set to those at the extreme ends based on the familiarity-rating norms.
 
 Response bias for the SVDW stimuli, and whether it differs between words and pictures, no doubt depends to some extent on characteristics of the experiment and sample, but whether or not materials-based differences are observed with these stimuli under "typical" recognition memory test conditions may tell us something about the boundary conditions of the effects we have observed. We have thus far found response bias to be significantly conservative for pictures, and significantly more conservative than that for words (which is typically neutral in words-only studies, and liberal in those intermixing words and pictures) in studies using paintings, faces, and photos of assorted scenes. Although these image types differ in a number of ways, all are visually complex and diverse; with the possible exceptions of faces and painted portraits, most of the images do not depict single objects and would be difficult to label succinctly. Also unlike the SVDW pictures, the images we have used do not map onto the word stimuli (3-8 letter English nouns of moderate-to-high frequency) we have used in our research, such that there are innumerable materials-based differences to which the response bias pattern could conceivably be attributed. Because the SVDW words and pictures refer to the same objects and the sets have been normed with respect to a number of variables thought to be important to memory (e.g., familiarity, visual complexity), the number of materials-based differences is more constrained. The presence or absence of a materials-based difference in recognition memory response bias for these stimuli, then, may serve as a useful baseline in attempting to understand what drives the differences we have observed.  
 
@@ -38,7 +41,8 @@ We do not plan to test any hypotheses with data from this pilot sample, but the 
 
 
 ## Planned analyses
-Our primary dependent measures of interest will be hit and false alarm rates (determined by collapsing our 1-6 response scale into a binary one, with 1-3 = "new" and 4-6 = "old"), and corresponding signal detection theory (SDT)-based measures of response bias (c) and sensitivity (d'). Ceiling and floor rates will be replaced according to Macmillan and Kaplan (1985) to enable calculation of c and d'. At the pilot stage we do not plan to conduct any inferential analyses (or if they are conducted it will be purely exploratory), but will instead just look at means/distributions as data come in to get a sense of whether ceiling/floor rates and/or very poor performance (our usual exclusion criterion for d' is < 0.2) are frequent enough to merit concern.
+Our primary dependent measures of interest will be hit and false alarm rates (determined by collapsing our 1-6 response scale into a binary one, with 1-3 = "new" and 4-6 = "old"), and corresponding signal detection theory (SDT)-based measures of response bias (c) and sensitivity (d'). Ceiling and floor rates will be replaced according to @Macmillan1985 to enable calculation of c and d'. At the pilot stage we do not plan to conduct any inferential analyses (or if they are conducted it will be purely exploratory), but will instead just look at means/distributions as data come in to get a sense of whether ceiling/floor rates and/or very poor performance (our usual exclusion criterion for d' is < 0.2) are frequent enough to merit concern.
 
+# References
 
 
